@@ -1,0 +1,75 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    background-image: url("https://www.vmcdn.ca/f/files/sudbury/sun-clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    margin: 5vh;
+}
+
+.input{
+    width: 60%;
+    margin-left: 20%;
+    border-style: solid;
+    border-color: black;
+}
+
+.button{
+   width: 20%;
+   margin-left: 40%;
+   margin-top: -1vh;
+   margin-bottom: 1vh;
+}
+
+.card{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.temp{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.cardBody{
+    background-color: rgb(241, 205, 235);
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 30% 40% 30%;
+    height: 20vh;
+}
+
+.temp{
+    margin: 0;
+    margin-left: 5vh;
+    font-size: 4vh;
+    grid-column: 3/4 ;
+    display: flex;
+    justify-content:end;
+}
+
+.title{
+    margin: 0;
+    font-size: 4vh;
+}
+
+.img{
+    margin: 0;
+    grid-column: 2/3 ;
+    grid-row: 2/3;
+}
+
+.params{
+    background: rgb(103,181,227);
+background: linear-gradient(180deg, rgba(103,181,227,1) 11%, rgba(0,212,255,1) 25%, rgba(255,253,255,1) 100%);
+    display: flex;
+    justify-content:space-around;
+}
