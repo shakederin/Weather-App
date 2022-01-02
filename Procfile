@@ -1,1 +1,1 @@
-web: start ./back/index.js
+web: start ./index.js
